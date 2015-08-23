@@ -1,0 +1,38 @@
+body{
+	background-color: #353535;
+}
+
+.inside tr,.inside td{
+	font-size: 40px;
+	font-family: "Arial";
+	height:50px;
+	width:50px;
+	border: 1px solid #B2B200;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+table, tr, td{
+	border:2px solid #353535;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+
+div{
+	position: absolute;
+	top:70px;
+	left: 30%;
+	padding: 10px;
+	border: 2px solid black;
+}
+.p11,.p12,.p21,.p22,.p31,.p32{
+	border-right: 2px solid #003380;
+}
+.p11,.p12,.p13,.p21,.p22,.p23{
+	border-bottom: 2px solid #003380;
+}
+p{
+	color:#524611;
+}
