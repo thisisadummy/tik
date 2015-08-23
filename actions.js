@@ -1,4 +1,5 @@
 //this is my new addition
+//this is from the dummy account
 var player=0;
 var ideas = {"p1":"p11","p2":"p12","p3":"p13","p4":"p21","p5":"p22","p6":"p23","p7":"p31","p8":"p32","p9":"p33"};
 var classes = {"p11":"p1","p12":"p2","p13":"p3","p21":"p4","p22":"p5","p23":"p6","p31":"p7","p32":"p8","p33":"p9"};
