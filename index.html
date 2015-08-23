@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>The Ultimate Tic-Tac-Toe</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<script src="actions.js"></script>
+</head>
+<body>
+
+<div id="whole" align="center">
+<table>
+	<tr>
+		<td class="p11">
+			<table class="inside">
+				<tr><td id="p11" name="p1" class="p1" onclick="doit(this)"></td><td id="p12" name="p1" class="p1" onclick="doit(this)"></td><td id="p13" name="p1" class="p1" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" name="p1" class="p1" onclick="doit(this)"></td><td id="p22" name="p1" class="p1" onclick="doit(this)"></td><td id="p23" name="p1" class="p1" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" name="p1" class="p1" onclick="doit(this)"></td><td id="p32" name="p1" class="p1" onclick="doit(this)"></td><td id="p33" name="p1" class="p1" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+		<td class="p12">
+			<table class="inside">
+				<tr><td id="p11" name="p2" class="p2" onclick="doit(this)"></td><td id="p12" name="p2" class="p2" onclick="doit(this)"></td><td id="p13" name="p2" class="p2" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" name="p2" class="p2" onclick="doit(this)"></td><td id="p22" name="p2" class="p2" onclick="doit(this)"></td><td id="p23" name="p2" class="p2" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" name="p2" class="p2" onclick="doit(this)"></td><td id="p32" name="p2" class="p2" onclick="doit(this)"></td><td id="p33" name="p2" class="p2" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+		<td class="p13">
+			<table class="inside">
+				<tr><td id="p11" class="p3" onclick="doit(this)"></td><td id="p12" class="p3" onclick="doit(this)"></td><td id="p13" class="p3" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" class="p3" onclick="doit(this)"></td><td id="p22" class="p3" onclick="doit(this)"></td><td id="p23" class="p3" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" class="p3" onclick="doit(this)"></td><td id="p32" class="p3" onclick="doit(this)"></td><td id="p33" class="p3" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="p21">
+			<table class="inside">
+				<tr><td id="p11" class="p4" onclick="doit(this)"></td><td id="p12" class="p4" onclick="doit(this)"></td><td id="p13" class="p4" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" class="p4" onclick="doit(this)"></td><td id="p22" class="p4" onclick="doit(this)"></td><td id="p23" class="p4" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" class="p4" onclick="doit(this)"></td><td id="p32" class="p4" onclick="doit(this)"></td><td id="p33" class="p4" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+		<td class="p22">
+			<table class="inside">
+				<tr><td id="p11" class="p5" onclick="doit(this)"></td><td id="p12" class="p5" onclick="doit(this)"></td><td id="p13" class="p5" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" class="p5" onclick="doit(this)"></td><td id="p22" class="p5" onclick="doit(this)"></td><td id="p23" class="p5" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" class="p5" onclick="doit(this)"></td><td id="p32" class="p5" onclick="doit(this)"></td><td id="p33" class="p5" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+		<td class="p23">
+			<table class="inside">
+				<tr><td id="p11" class="p6" onclick="doit(this)"></td><td id="p12" class="p6" onclick="doit(this)"></td><td id="p13" class="p6" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" class="p6" onclick="doit(this)"></td><td id="p22" class="p6" onclick="doit(this)"></td><td id="p23" class="p6" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" class="p6" onclick="doit(this)"></td><td id="p32" class="p6" onclick="doit(this)"></td><td id="p33" class="p6" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="p31">
+			<table class="inside">
+				<tr><td id="p11" class="p7" onclick="doit(this)"></td><td id="p12" class="p7" onclick="doit(this)"></td><td id="p13" class="p7" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" class="p7" onclick="doit(this)"></td><td id="p22" class="p7" onclick="doit(this)"></td><td id="p23" class="p7" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" class="p7" onclick="doit(this)"></td><td id="p32" class="p7" onclick="doit(this)"></td><td id="p33" class="p7" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+		<td class="p32">
+			<table class="inside">
+				<tr><td id="p11" class="p8" onclick="doit(this)"></td><td id="p12" class="p8" onclick="doit(this)"></td><td id="p13" class="p8" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" class="p8" onclick="doit(this)"></td><td id="p22" class="p8" onclick="doit(this)"></td><td id="p23" class="p8" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" class="p8" onclick="doit(this)"></td><td id="p32" class="p8" onclick="doit(this)"></td><td id="p33" class="p8" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+		<td class="p33">
+			<table class="inside">
+				<tr><td id="p11" class="p9" onclick="doit(this)"></td><td id="p12" class="p9" onclick="doit(this)"></td><td id="p13" class="p9" onclick="doit(this)"></td></tr>
+				<tr><td id="p21" class="p9" onclick="doit(this)"></td><td id="p22" class="p9" onclick="doit(this)"></td><td id="p23" class="p9" onclick="doit(this)"></td></tr>
+				<tr><td id="p31" class="p9" onclick="doit(this)"></td><td id="p32" class="p9" onclick="doit(this)"></td><td id="p33" class="p9" onclick="doit(this)"></td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+
+</body>
+</html>
